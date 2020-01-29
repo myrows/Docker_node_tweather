@@ -15,5 +15,5 @@ RUN npm install
 # Copiar apps principales Bundle
 COPY . .
 
-EXPOSE 8080
+EXPOSE 3000
 CMD [ "node", "./bin/www" ]

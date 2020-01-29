@@ -21,7 +21,7 @@ RUN npm install
 # App fuente Bundle
 COPY . .
 
-EXPOSE 8080
+EXPOSE 3000
 CMD [ "node", "./bin/www" ]
 
 4. Construimos la imagen -> docker build -t tweatherapp/node-api-app .
